@@ -89,7 +89,7 @@ interface messageValues {
 const messageQueue = new Map()
 let messageIdCounter = 0
 
-const syncRemote = async (data: messageValues) => {
+const syncRemote = async (_data: messageValues) => {
     // TODO: Sync data to remote
     // await fetch('http://127.0.0.1:8000/api/users', {
     //     method: "POST",
